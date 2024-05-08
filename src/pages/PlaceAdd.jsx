@@ -25,7 +25,7 @@ function PlaceAdd() {
       <h2>Add a Place</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Title:</label>
+          <label>Başlık:</label>
           <input
             type="text"
             name="title"
@@ -35,7 +35,79 @@ function PlaceAdd() {
           />
         </div>
         <div>
-          <label>Description:</label>
+          <label>Açıklama:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Country:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>City:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>County:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Area:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Rooms:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Wc:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Kategori:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Available:</label>
           <textarea
             name="description"
             value={formData.description}
@@ -45,6 +117,69 @@ function PlaceAdd() {
         </div>
         <div>
           <label>Price:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>district:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Beds:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Amenities:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Features:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Pets:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Forograf:</label>
+          <textarea
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Fiyat:</label>
           <input
             type="number"
             name="price"
@@ -54,7 +189,7 @@ function PlaceAdd() {
           />
         </div>
         <div>
-          <label>Location:</label>
+          <label>Yer:</label>
           <input
             type="text"
             name="location"
